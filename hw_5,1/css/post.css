@@ -1,0 +1,19 @@
+.text-center{
+    text-align: center
+}
+.wrapper {
+    font-size: 0;
+}
+.item {
+    display: inline-block;
+    width: calc(25%);
+    box-sizing: border-box;
+    padding: 20px 40px;
+    border: 1px solid #fdfdfd;
+    background-color: #dadada;
+    font-size: 38px;
+    /*margin-bottom: 30px;*/
+    text-align: center
+}
+
+

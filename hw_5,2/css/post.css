@@ -1,0 +1,52 @@
+body {
+    background-color: #ededed;
+}
+
+.container {
+    width: 100%;
+}
+
+.item {
+    width: calc(25%- 10px);
+    float: left;
+    margin-right: 15px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    text-align: center;
+    background-color: #ffffff;
+}
+
+.small-image{
+        max-width: 25%;
+        max-height: 25%;
+    margin-left: 150px;
+
+
+    }
+
+
+.my-button {
+    border: none;
+    background-color: #ef3c6d;
+    border-radius: 30px;
+    padding: 5px 50px;
+    color: #ffffff;
+    display: inline-block;
+}
+
+.clearfix:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+
+.block:last-child {
+    margin-right: 0; /* Відміна margin-right для останнього блоку у ряду */
+}
+
+.clearfix::after {
+    content: ""; /* Додаємо пустий контент */
+    display: block; /* Робимо контент блочним елементом */
+    clear: both; /* Забороняємо обтікання */
+}
